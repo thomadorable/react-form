@@ -1,0 +1,19 @@
+{
+  "name": "formulaire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "formulaire.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "compil": "babel --watch src --out-dir . --presets react-app/prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^3.1.2",
+    "json-server": "^0.14.0"
+  }
+}
